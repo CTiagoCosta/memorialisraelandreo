@@ -1,10 +1,20 @@
 
 import styled from "styled-components";
 import { SocialLink } from "./SocialLink";
+import { devices } from "../resorces/devices";
 
 const Wrapper = styled.div`
     display: flex;
+    margin-top: 20px;
     gap: 30px;
+    flex-direction: column;
+    align-items: center;
+
+    @media ${devices.tablet} {
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+    }
     
 `;
 

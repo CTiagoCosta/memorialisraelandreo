@@ -3,19 +3,33 @@ import { GreenH1, OrangeH1 } from "./Logo";
 import { GreenH3 } from "./Text";
 import navIcon2 from "../assets/images/nav-icon2.svg";
 import navIcon3 from "../assets/images/nav-icon3.svg";
+import { devices } from "../resorces/devices";
 
 const Wrapper = styled.section`
     background: white;
     padding: 0.5em;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    @media ${devices.laptop} {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        flex-direction: row;
+        align-items: flex-end;
+    
+    }
    
 `;
 
 const Title = styled.div`
-    max-width: auto;
     display: flex;
+
+    @media ${devices.laptop} {
+        //display: flex;
+    }
 `;
 
 const SocialFooter = styled.div`

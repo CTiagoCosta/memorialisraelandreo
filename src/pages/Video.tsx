@@ -1,22 +1,35 @@
 
 import styled from 'styled-components';
 import { WhiteH1 } from '../components/Topic';
-// import israelAndreo  from '../assets/videos/rael2.mp4'
+import israelAndreo  from '../assets/videos/rael2.mp4'
 import ReactPlayer from 'react-player';
+import { devices } from '../resorces/devices';
 
 
 const Wrapper = styled.div`
     background: #1c4532;
-    padding: 100px 0;
+    padding: 0px 0px 25px 0px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+
+    @media ${devices.laptop} {
+        display: flex;
+        padding: 100px 0;
+        align-items: center;
+        flex-direction: row;
+    
+    }
 `;
 
 const Paragraph = styled.p`
     font-size: 1rem;
     font-weight: 600;
     color: white;
+    padding: 20px;
+
+
     
 `;
 
@@ -24,6 +37,8 @@ const ReactPlayerVideo = styled.div`
     border: 7px solid #ED8936;
     border-radius: 20px;
 `;
+
+
 
 export function Video(){
     return (
@@ -35,6 +50,8 @@ export function Video(){
                     playing={true}
                     muted={true}
                     loop={true}
+                    width='100%'
+                    height='100%'
                     />
             </ReactPlayerVideo>
             <Paragraph> 
