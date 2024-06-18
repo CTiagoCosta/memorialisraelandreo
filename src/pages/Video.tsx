@@ -60,11 +60,11 @@ export function Video(){
                     Eu fiz de tudo pra tratar vida melhor,<br></br>
                     Eu trabalhei eu derramei o meu suor,<br></br>
                     Não tive tudo foi por isso que sofri,<br></br>
-                    Por opção sem profissão, mas consegui.<br></br><br></br>
+                    Pouca visão, sem profissão, mas consegui.<br></br><br></br>
 
                     Corri, parei, sorri, mas também chorei, <br></br>
                     Eu construí, eu desmanchei,<br></br>
-                    Fui insistente e não desanimei<br></br>
+                    Fui insistente e não desanimei<br></br><br></br>
 
                     Homem valente é aquele que trabalha,<br></br>
                     Luta com fé e não perde a batalha.<br></br>

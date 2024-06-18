@@ -5,7 +5,7 @@ import { devices } from "../resorces/devices";
 
 const Wrapper = styled.div`
     display: flex;
-    margin-top: 20px;
+    //margin-top: 20px;
     gap: 30px;
     flex-direction: column;
     align-items: center;

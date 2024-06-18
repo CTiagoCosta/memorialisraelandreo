@@ -101,18 +101,18 @@ export function Depositions(){
                     <Image width="100px" height="100px" src={samira} />
                     <OrangeH2>Samira</OrangeH2>
                     <GreenH2>
-                        Papai. 
-                        Teste testetetstetstet etestetst etsttets Teste testetetstetstet etestetst etsttetstststststtstststtst...
+                        Pai.
+                        Saudade de ouvir sua risada, sentir sua alegria, você faz muita falta. O que me traz conforto é saber que seu tempo aqui na terra...
                         <Button colorScheme="green.700" variant='link' onClick={() => handleOpenModal({ 
-                            title: 'Marido', 
-                            body: 'This is the 5 modal content ',
+                            title: 'Pai', 
+                            body: 'Saudade de ouvir sua risada, sentir sua alegria, você faz muita falta. O que me traz conforto é saber que seu tempo aqui na terra deixou um legado inestimável de aprendizado. Com voce aprendi a ser uma pessoas honesta e persistente. Aprendi o valor do trabalho duro e o mais importante, a ter fé. Quem o conheceu sabe o quanto sofreu na infância e o quanto trabalhou pra criar seus filho, e nos últimos dias de sua vida você me deixou mais uma lição, a gratidão. Quando pedi pra que fizesse um desejo o senhor só agradeceu por tudo que fizemos.  Obrigado por ter feito minha vida mais alegre e segura. Sempre levarei os momentos preciosos que passamos juntos. Seu legado de bondade e força permanece em mim. Te amo pra sempre.',
                             imageUrl: `${samira}`
                             })}
                         > Leia mais
                         </Button>
                     </GreenH2>
                 </Card>
-                <Modal isOpen={isOpen} onClose={onClose}>
+                <Modal isOpen={isOpen} onClose={onClose} size="xl">
                     <ModalOverlay />
                     <ModalContent>
                         <ModalHeader>{modalContent.title}</ModalHeader>

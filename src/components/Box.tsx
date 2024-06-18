@@ -14,8 +14,20 @@ export const BoxCenter = styled.div`
         height: 700px;
     }
     @media ${devices.desktop} {
-        height: 400px;
+        height: 450px;
     }
+`;
+
+export const BoxCenterWhite = styled.div`
+    width: 100%;
+    padding: 0px;
+    height: 1220px;
+    background: white;
+
+    @media ${devices.laptop} {
+        height: 800px;
+    }
+    
 `;
 
 export const BoxCard = styled.div`

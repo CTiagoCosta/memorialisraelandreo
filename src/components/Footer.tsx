@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { GreenH1, OrangeH1 } from "./Logo";
-import { GreenH3 } from "./Text";
+import { OrangeH1, WhiteH1 } from "./Logo";
+import { WhiteH3 } from "./Text";
 import navIcon2 from "../assets/images/nav-icon2.svg";
 import navIcon3 from "../assets/images/nav-icon3.svg";
 import { devices } from "../resorces/devices";
 
 const Wrapper = styled.section`
-    background: white;
+    background: #1c4532;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
@@ -79,10 +79,10 @@ export function Footer() {
     return (
         <Wrapper>
             <Title>
-                <GreenH1>Israel Andreo</GreenH1>
+                <WhiteH1>Israel Andreo</WhiteH1>
                 <OrangeH1>.</OrangeH1>
             </Title>
-            <GreenH3>Todos os direitos reservados.</GreenH3>
+            <WhiteH3>Todos os direitos reservados.</WhiteH3>
             <SocialFooter>
                 <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link>
                 <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></Link>

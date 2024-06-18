@@ -1,9 +1,14 @@
-import { Box } from '@chakra-ui/react'
+
+import { BoxCenterWhite } from '../components/Box'
+import { CenteredContent } from '../components/CenteredContent'
+import { GreenH1 } from '../components/Logo'
 
 export function Gallery(){
     return (
-        <Box flex="1" bg="white" p="300">
-            <h1>Galeria</h1>        
-        </Box>
+        <BoxCenterWhite>
+            <CenteredContent>
+                <GreenH1>Galeria</GreenH1>
+            </CenteredContent>
+        </BoxCenterWhite>
     )
 }
