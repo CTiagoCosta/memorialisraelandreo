@@ -64,16 +64,28 @@ const ConectButton  = styled.button `
     
 `;
 
-
-
 export function Menu(){
+    const handleScrollDepositions = () => {
+        window.scrollTo({
+          top: 1552, // Altura em pixels para onde a página deve rolar
+          behavior: 'smooth', // Comportamento suave da rolagem
+        });
+      };
+
+      const handleScrollContact = () => {
+        window.scrollTo({
+          top: 2552, // Altura em pixels para onde a página deve rolar
+          behavior: 'smooth', // Comportamento suave da rolagem
+        });
+      };
+
     return (
         <Wrapper> 
             <Button>Sobre</Button>
             <Button >Galeria</Button>
-            <Button>Depoimentos</Button>
+            <Button onClick={handleScrollDepositions}>Depoimentos</Button>
             <SocialLink />
-            <ConectButton>Deixe sua Mensagem</ConectButton>
+            <ConectButton onClick={handleScrollContact}>Deixe sua Mensagem</ConectButton>
         </Wrapper>
          
         

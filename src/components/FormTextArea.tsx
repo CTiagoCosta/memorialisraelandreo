@@ -58,8 +58,8 @@ type FormImputProps = {
   placeholder: string;
   autoComplete: string;
   maxLength: number;
-  required: boolean;
-  disabled: boolean;
+  required?: boolean;
+  disabled?: boolean;
   action?: string;
   handleAction?: (event: any) => void;
   gridArea: string;
