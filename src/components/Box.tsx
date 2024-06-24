@@ -36,8 +36,14 @@ export const BoxCenterWhiteGallery = styled.div`
     height: 4400px;
     background: white;
 
-    @media ${devices.laptop} {
-        height: 950px;
+   @media ${devices.laptop} {
+        height: 1220px;
+    }
+     @media ${devices.laptopL} {
+        height: 930px;
+    }
+    @media ${devices.desktop} {
+        height: 1500px;
     }
     
 `;

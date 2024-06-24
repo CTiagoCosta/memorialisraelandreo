@@ -29,6 +29,7 @@ const Button  = styled.button `
     
 `;
 
+
 const ConectButton  = styled.button `
     font-weight: 700;
     color: #fff;
@@ -61,31 +62,31 @@ const ConectButton  = styled.button `
 	height: 100%;
 	position: absolute;
 }
-    
+
 `;
 
 export function Menu(){
-    const handleScrollDepositions = () => {
-        window.scrollTo({
-          top: 1552, // Altura em pixels para onde a página deve rolar
-          behavior: 'smooth', // Comportamento suave da rolagem
-        });
-      };
 
-      const handleScrollContact = () => {
-        window.scrollTo({
-          top: 2552, // Altura em pixels para onde a página deve rolar
-          behavior: 'smooth', // Comportamento suave da rolagem
-        });
+    const scrollToSection = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        event.preventDefault();
+        const targetId = event.currentTarget.getAttribute('href')!.substring(1);
+        const targetElement = document.getElementById(targetId);
+    
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth'
+          });
+        }
       };
 
     return (
         <Wrapper> 
-            <Button>Sobre</Button>
-            <Button >Galeria</Button>
-            <Button onClick={handleScrollDepositions}>Depoimentos</Button>
+            <Button><a href="#section1" onClick={scrollToSection}>Sobre</a></Button>
+            <Button><a href="#section2" onClick={scrollToSection}>Galeria</a></Button>
+            <Button><a href="#section3" onClick={scrollToSection}>Depoimentos</a></Button>
             <SocialLink />
-            <ConectButton onClick={handleScrollContact}>Deixe sua Mensagem</ConectButton>
+            <ConectButton><a href="#section4" onClick={scrollToSection}>Deixe sua Mensagem</a></ConectButton>
         </Wrapper>
          
         

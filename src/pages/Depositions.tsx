@@ -32,7 +32,7 @@ export function Depositions(){
     return (
         <>
         <BoxCenter>
-            <CenteredContent>
+            <CenteredContent id="section3" className="section">
                 <OrangeH1>Depoimentos</OrangeH1>
             </CenteredContent>
             <BoxCard>

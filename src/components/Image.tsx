@@ -32,3 +32,17 @@ export const Img = styled.img<ImageProps>`
   }
   
 `;
+
+
+export const ImageURL = styled.img<ImageProps>`
+  height: 390px;
+  //margin: 15px 0px 0px 20px;
+  //border-radius: 200px;
+  width: 530px;
+
+  @media ${devices.laptop} {
+    height: 480px;
+    width: 530px;
+  }
+  
+`;

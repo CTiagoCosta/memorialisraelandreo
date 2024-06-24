@@ -51,8 +51,8 @@ const Link =styled.a`
 export function SocialLink() {
     return (
         <Wrapper>
-            <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link>
-            <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></Link>
+            <Link href="https://www.facebook.com/recanto.grotto" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link>
+            <Link href="https://www.facebook.com/recanto.grotto" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></Link>
             {/* <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link> */}
         </Wrapper>
 

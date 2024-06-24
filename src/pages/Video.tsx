@@ -42,7 +42,7 @@ const ReactPlayerVideo = styled.div`
 
 export function Video(){
     return (
-        <Wrapper>
+        <Wrapper id="section1" className="section">
             <ReactPlayerVideo>
                 <ReactPlayer
                     url={israelAndreo}
@@ -59,7 +59,7 @@ export function Video(){
                 De: Israel Andreo <br></br><br></br>
                     Eu fiz de tudo pra tratar vida melhor,<br></br>
                     Eu trabalhei eu derramei o meu suor,<br></br>
-                    Não tive tudo foi por isso que sofri,<br></br>
+                    Não tive estudo foi por isso que sofri,<br></br>
                     Pouca visão, sem profissão, mas consegui.<br></br><br></br>
 
                     Corri, parei, sorri, mas também chorei, <br></br>

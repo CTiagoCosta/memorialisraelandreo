@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { OrangeH1, WhiteH1 } from "./Logo";
 import { WhiteH3 } from "./Text";
-import navIcon2 from "../assets/images/nav-icon2.svg";
+import navIcon1 from "../assets/images/nav-icon1.svg";
 import navIcon3 from "../assets/images/nav-icon3.svg";
 import { devices } from "../resorces/devices";
 
@@ -74,6 +74,20 @@ const Link =styled.a`
 }
 `;
 
+const ContactDev = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+    @media ${devices.laptop} {
+        margin-bottom: 0px;
+    }
+
+
+`;
+
+
 
 export function Footer() {
     return (
@@ -82,10 +96,15 @@ export function Footer() {
                 <WhiteH1>Israel Andreo</WhiteH1>
                 <OrangeH1>.</OrangeH1>
             </Title>
-            <WhiteH3>Todos os direitos reservados.</WhiteH3>
+            <ContactDev>
+                <WhiteH3>Todos os direitos reservados.</WhiteH3>
+                <a href="https://www.tiagocostadev.com.br/" target="_blank">
+                    <WhiteH3>Tiago Costa Dev</WhiteH3>   
+                </a>
+            </ContactDev>
             <SocialFooter>
-                <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link>
-                <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></Link>
+                <Link href="https://www.linkedin.com/in/carlos-tiago-silva-costa-458b16224/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="LinkedIn" /></Link>
+                <Link href="https://www.instagram.com/carlos_tiago/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></Link>
             </SocialFooter>
             
         </Wrapper>

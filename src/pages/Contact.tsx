@@ -144,7 +144,7 @@ export function Contact() {
       }
 
     return(
-        <BoxCenterWhite>
+        <BoxCenterWhite id="section4" className="section">
             <CenteredContent>
                 <GreenH1>Deixe sua Mensagem</GreenH1>
             </CenteredContent>
