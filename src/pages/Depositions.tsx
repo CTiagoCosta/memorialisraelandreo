@@ -1,5 +1,5 @@
 import { BoxCard, BoxCenter } from "../components/Box";
-import { Card, CardModal } from "../components/Cards";
+import { CardModal, CardWhite } from "../components/Cards";
 import { CenteredContent } from "../components/CenteredContent";
 import { OrangeH1, OrangeH2 } from "../components/Topic";
 import { Image } from '../components/Image';
@@ -36,7 +36,7 @@ export function Depositions(){
                 <OrangeH1>Depoimentos</OrangeH1>
             </CenteredContent>
             <BoxCard>
-                <Card>
+                <CardWhite>
                     <Image width="100px" height="100px" src={sonia} />
                     <OrangeH2>Sônia</OrangeH2>
                     <GreenH2>
@@ -50,8 +50,8 @@ export function Depositions(){
                         > Leia mais
                         </Button>
                     </GreenH2>
-                </Card>
-                <Card>
+                </CardWhite>
+                <CardWhite>
                     <Image width="100px" height="100px" src={silvana} />
                     <OrangeH2>Silvana</OrangeH2>
                     <GreenH2>
@@ -66,8 +66,8 @@ export function Depositions(){
                         > Leia mais
                         </Button>
                     </GreenH2>
-                </Card>
-                <Card>
+                </CardWhite>
+                <CardWhite>
                     <Image width="100px" height="100px" src={silvio} />
                     <OrangeH2>Silvio</OrangeH2>
                     <GreenH2>
@@ -81,8 +81,8 @@ export function Depositions(){
                         > Leia mais
                         </Button>
                     </GreenH2>
-                </Card>
-                <Card>
+                </CardWhite>
+                <CardWhite>
                     <Image width="100px" height="100px" src={sandro} />
                     <OrangeH2>Sandro</OrangeH2>
                     <GreenH2>
@@ -96,8 +96,8 @@ export function Depositions(){
                         > Leia mais
                         </Button>
                     </GreenH2>
-                </Card>
-                <Card>
+                </CardWhite>
+                <CardWhite>
                     <Image width="100px" height="100px" src={samira} />
                     <OrangeH2>Samira</OrangeH2>
                     <GreenH2>
@@ -111,7 +111,7 @@ export function Depositions(){
                         > Leia mais
                         </Button>
                     </GreenH2>
-                </Card>
+                </CardWhite>
                 <Modal isOpen={isOpen} onClose={onClose} size="xl">
                     <ModalOverlay />
                     <ModalContent>

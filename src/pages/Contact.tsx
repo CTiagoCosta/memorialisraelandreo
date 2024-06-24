@@ -151,14 +151,14 @@ export function Contact() {
             <Wrapper>
                 <Img width="640px" height="590px" src={israel} />
                 <Form ref={formRef} onSubmit={submit}>
-                <FormSection
-                    title=""
-                    gridTemplateColumns="1fr 1fr"
-                    gridTemplateAreas='
-                    "area1 area2"
-                    "area3 area4"
-                    '
-                >
+                  <FormSection
+                      title=""
+                      gridTemplateColumns="1fr 1fr"
+                      gridTemplateAreas='
+                      "area1 area2"
+                      "area3 area4"
+                      '
+                  >
                     <FormInput
                         id="nome"
                         name="nome"
@@ -201,14 +201,14 @@ export function Contact() {
                         mask="(99) 99999-9999"
                         gridArea="area4"
                     />
-                </FormSection>    
-                <FormSection
-                    title=""
-                    gridTemplateColumns="1fr"
-                    gridTemplateAreas='
-                    "area1"
-                    '
-                >
+                  </FormSection>    
+                  <FormSection
+                      title=""
+                      gridTemplateColumns="1fr"
+                      gridTemplateAreas='
+                      "area1"
+                      '
+                  >
                     <FormTextArea
                         id="message"
                         name="message"

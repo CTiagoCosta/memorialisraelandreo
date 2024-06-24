@@ -25,7 +25,19 @@ export const BoxCenterWhite = styled.div`
     background: white;
 
     @media ${devices.laptop} {
-        height: 800px;
+        height: 950px;
+    }
+    
+`;
+
+export const BoxCenterWhiteGallery = styled.div`
+    width: 100%;
+    padding: 0px;
+    height: 4400px;
+    background: white;
+
+    @media ${devices.laptop} {
+        height: 950px;
     }
     
 `;

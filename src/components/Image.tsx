@@ -13,6 +13,13 @@ export const Image = styled.img<ImageProps>`
   width: ${({ width }) => width};
 `;
 
+export const Images = styled.img<ImageProps>`
+  height: ${({ height }) => height};
+  margin: 15px;
+  border-radius: 10px;
+  width: ${({ width }) => width};
+`;
+
 export const Img = styled.img<ImageProps>`
   height: 260px;
   margin: 15px 0px 0px 20px;
