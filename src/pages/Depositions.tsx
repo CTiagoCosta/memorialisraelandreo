@@ -71,11 +71,11 @@ export function Depositions(){
                     <Image width="100px" height="100px" src={silvio} />
                     <OrangeH2>Silvio</OrangeH2>
                     <GreenH2>
-                        Papai. 
-                        Teste testetetstetstet etestetst etsttets Teste testetetstetstet etestetst etsttetstststststtstststtst...
+                        Pai. 
+                        seu amor é minha força e sua sabedoria é minha bússola. Na sua simplicidade e honestidade nos passou valores para ser...
                         <Button colorScheme="green.700" variant='link' onClick={() => handleOpenModal({ 
-                            title: 'Papai', 
-                            body: 'This is the 3 modal content',
+                            title: 'Pai', 
+                            body: 'Obrigado por plantar raízes, e pegar minha mão  para me ensinar coragem e determinação. Obrigado por dar a vida, dar amor, orientação e mostrar o caminho. Mais que um depoimento, você com certeza merece todo o meu coração e minha gratidão. Seu amor é minha força e sua sabedoria é minha bússola. Na sua simplicidade e honestidade nos passou valores para ser cada vez melhor. Deixa saudades, mas sentimos a sua presença em cada canto e em cada dia que passa. Te amaremos sempre.',
                             imageUrl: `${silvio}`
                             })}
                         > Leia mais
@@ -89,7 +89,7 @@ export function Depositions(){
                         Papai. 
                         Teste testetetstetstet etestetst etsttets Teste testetetstetstet etestetst etsttetstststststtstststtst...
                         <Button colorScheme="green.700" variant='link' onClick={() => handleOpenModal({ 
-                            title: 'Marido', 
+                            title: 'Pai', 
                             body: 'This is the 4 modal content',
                             imageUrl: `${sandro}`
                             })}
