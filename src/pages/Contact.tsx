@@ -4,7 +4,6 @@ import emailjs from '@emailjs/browser';
 import styled from "styled-components";
 import { GreenH1 } from "../components/Logo";
 import { devices } from "../resorces/devices";
-import { unMask } from 'node-masker';
 import { BoxCenterWhite } from "../components/Box";
 import { CenteredContent } from "../components/CenteredContent";
 import { Img } from '../components/Image';
@@ -38,16 +37,6 @@ export function Contact() {
 
       
       const handleChange = async (event: any) => {
-        const { name, value } = event.target;
-        setMessageDate({ ...messageDate, [name]: unMask(value) });
-      };
-
-      const handleChangeTextArea = async (event: any) => {
-        const { name, value } = event.target;
-        setMessageDate({ ...messageDate, [name]: value });
-      };
-
-      const handleChangeEmail = async (event: any) => {
         const { name, value } = event.target;
         setMessageDate({ ...messageDate, [name]: value });
       };
@@ -186,7 +175,7 @@ export function Contact() {
                         type="text"
                         placeholder="Endereço de E-mail"
                         autoComplete="off"
-                        onChange={handleChangeEmail}
+                        onChange={handleChange}
                         value={messageDate.email}
                         gridArea="area3"
                     />
@@ -214,14 +203,14 @@ export function Contact() {
                         name="message"
                         rows={7}
                         value={messageDate.message}
-                        onChange={handleChangeTextArea}
+                        onChange={handleChange}
                         placeholder="Digite sua mensagem"
                         autoComplete="off"
                         maxLength={2500}
                         required={false}
                         disabled={false}
                         gridArea="area1"
-                        onKeyUp={handleChangeTextArea}
+                        onKeyUp={handleChange}
                     />
                     </FormSection>
                     <CenteredButtons>
