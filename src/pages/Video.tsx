@@ -13,12 +13,12 @@ const Wrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
 
     @media ${devices.laptop} {
         display: flex;
         align-items: center;
         flex-direction: row;
+        margin-top: 50px;
     
     }
 `;
