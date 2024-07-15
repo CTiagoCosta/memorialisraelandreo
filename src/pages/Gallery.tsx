@@ -5,7 +5,6 @@ import { BoxCenterWhiteGallery } from '../components/Box';
 import { CardModal, CardChaka } from '../components/Cards';
 import { CenteredContent } from '../components/CenteredContent';
 import { GreenH1 } from '../components/Logo';
-import { ButtonGallery } from "../components/Button";
 import { ImageURL, Images } from '../components/Image';
 import imagem from '../assets/images/imagem1.jpeg';
 import imagem2 from '../assets/images/imagem2.jpg';
@@ -67,9 +66,15 @@ export function Gallery(){
                 <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
                     { imageMaps.map((imageMap: ImageMap) => (
                         <React.Fragment key={imageMap.toString()}>
-                            <CardChaka>
+                            <CardChaka
+                                onClick={() => handleOpenModal({
+                                    title: '',
+                                    body: '',
+                                    imageMap: `${imageMap.imagem1}`
+                                })}
+                            >
                                 <Images width="200px" height="180px" src={imageMap.imagem1} />
-                                <ButtonGallery 
+                                {/* <ButtonGallery 
                                     onClick={() => handleOpenModal({
                                         title: '',
                                         body: '',
@@ -77,7 +82,7 @@ export function Gallery(){
                                     })}
                                 >
                                     Ver Imagem
-                                </ButtonGallery>
+                                </ButtonGallery> */}
                             </CardChaka>
                             <Modal isOpen={isOpen} onClose={onClose} size="xl">
                                 <ModalOverlay />

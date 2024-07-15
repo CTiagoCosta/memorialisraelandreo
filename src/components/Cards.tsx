@@ -3,7 +3,6 @@ import { devices } from "../resorces/devices";
 
 
 export const CardWhite = styled.div`
-    //padding: 30px;
     width: 430px;
     background: white;
     height: 310px;
@@ -20,7 +19,6 @@ export const CardWhite = styled.div`
 `;
 
 export const CardGreen = styled.div`
-    //padding: 30px;
     width: 430px;
     background: #1c4532;
     height: 310px;
@@ -72,4 +70,5 @@ export const CardChaka = styled.div`
     --card-padding: var(--chakra-space-5);
     --card-shadow: var(--chakra-shadows-base);
     flex-wrap: wrap;
+    cursor: pointer;
 `

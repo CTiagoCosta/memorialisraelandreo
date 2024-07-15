@@ -40,7 +40,7 @@ export function Depositions(){
                     <Image width="100px" height="100px" src={sonia} />
                     <OrangeH2>Sônia</OrangeH2>
                     <GreenH2>
-                        Papai. 
+                        Bem! 
                         Teste testetetstetstet etestetst etsttets Teste testetetstetstet etestetst etsttetstststststtstststtst...
                         <Button colorScheme="green.700" variant='link' onClick={() => handleOpenModal({ 
                             title: 'Marido', 
@@ -57,7 +57,6 @@ export function Depositions(){
                     <GreenH2>
                         Papai. 
                         Ter você em minha vida sempre foi exemplo de superação, honestidade, paciência, dedicação e amor. Como foi bom ter você... 
-                        {/* <Button onClick={onOpen} variant='link'>Leia mais</Button> */}
                         <Button colorScheme="green.700" variant='link' onClick={() => handleOpenModal({ 
                             title: 'Papai', 
                             body: 'Ter você em minha vida sempre foi exemplo de superação, honestidade, paciência, possível com você, fizemos planos e os desfazemos, foram dias incríveis ao seu lado, tudo era possível, otimismo era seu lema, não tinha tempo ruim, mesmo nas horas mais complicadas. Mas, ainda assim, gostaria de mais,  mais abraços seus, mais conversas, mais beijos ou apenas ficar pertinho no sofá enquanto você descansava, minha vida tem um marco, com você e sem você, o antes e o depois, tudo tem um novo olhar, um novo significado e nada mais será completo a cada dia que passa a saudade aumenta, como dói saber que você não está aqui entre nós. mas, honrarei sua memória com a prática de seus ensinamentos e seu legado estará vivo  para sempre. Com amor sua filha Silvana. ',
@@ -86,11 +85,11 @@ export function Depositions(){
                     <Image width="100px" height="100px" src={sandro} />
                     <OrangeH2>Sandro</OrangeH2>
                     <GreenH2>
-                        Papai. 
-                        Teste testetetstetstet etestetst etsttets Teste testetetstetstet etestetst etsttetstststststtstststtst...
+                        Pai. 
+                        O que dizer desse homem, maravilhoso que me deu a vida! Tenho tanta coisa pra dizer, mas só quero agradecer, por ter...
                         <Button colorScheme="green.700" variant='link' onClick={() => handleOpenModal({ 
                             title: 'Pai', 
-                            body: 'This is the 4 modal content',
+                            body: 'O que dizer desse homem, maravilhoso que me deu a vida! Tenho tanta coisa pra dizer, mas só quero agradecer, por ter sido seu filho, foi com você que conheci o que é ser um homem honesto e honrado, sou grato por todo tempo que vivi com o senhor papai, sua falta e um vazio enorme no meu coração, te amarei eternamente, obrigada por tudo que aprendi com o senhor.',
                             imageUrl: `${sandro}`
                             })}
                         > Leia mais

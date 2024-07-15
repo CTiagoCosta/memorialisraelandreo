@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 import navIcon2 from "../assets/images/nav-icon2.svg";
-import navIcon3 from "../assets/images/nav-icon3.svg";
 
 
 const Wrapper = styled.div`
@@ -52,8 +51,6 @@ export function SocialLink() {
     return (
         <Wrapper>
             <Link href="https://www.facebook.com/recanto.grotto" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link>
-            <Link href="https://www.facebook.com/recanto.grotto" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></Link>
-            {/* <Link href="https://www.facebook.com/tiago.silva.5015" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Facebook" /></Link> */}
         </Wrapper>
 
     )
