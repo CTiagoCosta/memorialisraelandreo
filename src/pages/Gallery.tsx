@@ -21,6 +21,11 @@ import imagem12 from '../assets/images/imagem12.jpg';
 import imagem13 from '../assets/images/imagem13.jpeg';
 import imagem14 from '../assets/images/imagem14.jpeg';
 import imagem15 from '../assets/images/imagem15.jpeg';
+import imagem16 from '../assets/images/imagem16.jpg';
+import imagem17 from '../assets/images/imagem17.jpg';
+import imagem18 from '../assets/images/imagem18.jpg';
+import imagem19 from '../assets/images/imagem19.jpg';
+import imagem20 from '../assets/images/imagem20.jpg';
 
 type ModalContent = {
     title: string;
@@ -51,6 +56,11 @@ export function Gallery(){
         { imagem1: `${imagem13}` },
         { imagem1: `${imagem14}` },
         { imagem1: `${imagem15}` },
+        { imagem1: `${imagem16}` },
+        { imagem1: `${imagem17}` },
+        { imagem1: `${imagem18}` },
+        { imagem1: `${imagem19}` },
+        { imagem1: `${imagem20}` },
       ];
 
     const handleOpenModal = (content: ModalContent) => {
