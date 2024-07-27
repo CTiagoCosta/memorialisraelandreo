@@ -40,11 +40,11 @@ export function Depositions(){
                     <Image width="100px" height="100px" src={sonia} />
                     <OrangeH2>Sônia</OrangeH2>
                     <GreenH2>
-                        Bem! 
-                        Teste testetetstetstet etestetst etsttets Teste testetetstetstet etestetst etsttetstsfdfddsdsdstst dsdsdststtstststtst... 
+                        Meu amor 
+                        Eu te amo e vou te amar o resto da minha vida. Você foi tudo para mim, e eu nunca vou te esquecer Saudade.... 
                         <Button colorScheme="orange" size='lg' variant='link' onClick={() => handleOpenModal({ 
                             title: 'Marido', 
-                            body: 'This is the first modal content',
+                            body: 'Eu te amo e vou te amar o resto da minha vida. Você foi tudo para mim, e eu nunca vou te esquecer Saudade. Saudade. Nossa, eu fui muito feliz ao seu lado.  Adorei a família que você me deu,  você foi sempre carinhoso.  Você é amor na minha vida, sinto falta da sua presença, sua companhia e do seu amor. Obrigado por tudo.',
                             imageUrl: `${sonia}`
                             })}
                         > Leia mais
