@@ -82,7 +82,7 @@ export function Menu(){
 
     return (
         <Wrapper> 
-            <Button><a href="#section1" onClick={scrollToSection}>Sobre</a></Button>
+            <Button><a href="#section1" onClick={scrollToSection}>Música</a></Button>
             <Button><a href="#section2" onClick={scrollToSection}>Galeria</a></Button>
             <Button><a href="#section3" onClick={scrollToSection}>Depoimentos</a></Button>
             <SocialLink />

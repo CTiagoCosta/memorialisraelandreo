@@ -35,6 +35,7 @@ const Wrapper = styled.section`
 const Title = styled.div`
     max-width: auto;
     display: flex;
+    margin-bottom: 15px;
 `;
 
 export function Header() {
