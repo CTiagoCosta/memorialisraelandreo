@@ -5,7 +5,6 @@ import { devices } from "../resorces/devices";
 export const CardWhite = styled.div`
     width: 430px;
     background: white;
-    height: 310px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;

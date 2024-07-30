@@ -41,7 +41,7 @@ export function Depositions(){
                     <OrangeH2>Sônia</OrangeH2>
                     <GreenH2>
                         Meu amor 
-                        Eu te amo e vou te amar o resto da minha vida. Você foi tudo para mim, e eu nunca vou te esquecer Saudade.... 
+                        Eu te amo e vou te amar o resto da minha vida. Você foi tudo para mim, e eu nunca vou te esquecer Saudade, Saudade..... 
                         <Button colorScheme="orange" size='lg' variant='link' onClick={() => handleOpenModal({ 
                             title: 'Marido', 
                             body: 'Eu te amo e vou te amar o resto da minha vida. Você foi tudo para mim, e eu nunca vou te esquecer Saudade. Saudade. Nossa, eu fui muito feliz ao seu lado.  Adorei a família que você me deu,  você foi sempre carinhoso.  Você é amor na minha vida, sinto falta da sua presença, sua companhia e do seu amor. Obrigado por tudo.',
@@ -56,10 +56,10 @@ export function Depositions(){
                     <OrangeH2>Silvana</OrangeH2>
                     <GreenH2>
                         Papai. 
-                        Ter você em minha vida sempre foi exemplo de superação, honestidade, paciência, dedicação e amor. Como foi bom ter você...  
+                        Ter você em minha vida sempre foi exemplo de superação, honestidade, paciência, dedicação e amor. como foi bom ...  
                         <Button colorScheme="orange" size='lg' variant='link' onClick={() => handleOpenModal({ 
                             title: 'Papai', 
-                            body: 'Ter você em minha vida sempre foi exemplo de superação, honestidade, paciência, possível com você, fizemos planos e os desfazemos, foram dias incríveis ao seu lado, tudo era possível, otimismo era seu lema, não tinha tempo ruim, mesmo nas horas mais complicadas. Mas, ainda assim, gostaria de mais,  mais abraços seus, mais conversas, mais beijos ou apenas ficar pertinho no sofá enquanto você descansava, minha vida tem um marco, com você e sem você, o antes e o depois, tudo tem um novo olhar, um novo significado e nada mais será completo a cada dia que passa a saudade aumenta, como dói saber que você não está aqui entre nós. mas, honrarei sua memória com a prática de seus ensinamentos e seu legado estará vivo  para sempre. Com amor sua filha Silvana. ',
+                            body: 'Ter você em minha vida sempre foi exemplo de superação, honestidade, paciência, dedicação e amor. Como foi bom ter você como pai, sei que aproveitei cada minuto possível com você, fizemos planos e os desfazemos, foram dias incríveis ao seu lado, tudo era possível, otimismo era seu lema, não tinha tempo ruim, mesmo nas horas mais complicadas, mas ainda assim gostaria de mais, mais abraços seus, mais conversas, mais beijos ou apenas ficar pertinho no sofá enquanto você descansava, minha vida tem um marco, com você e sem você, o antes e o depois, tudo tem um novo olhar, um novo significado e nada mais será completo, a cada dia que passa a saudade aumenta, como dói saber que você não está aqui entre nós, mas honrarei sua memória com a prática de seus ensinamentos e seu legado estará vivo para sempre. Com amor sua filha Silvana.',
                             imageUrl: `${silvana}`
                         })}
                         > Leia mais
