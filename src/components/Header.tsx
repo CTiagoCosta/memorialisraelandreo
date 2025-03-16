@@ -4,12 +4,17 @@ import { Menu } from "./Menu";
 import { devices } from "../resorces/devices";
 
 const Wrapper = styled.section`
-    padding: 0.5em;
+     padding: 0.5em 1em;
     background: #1c4532;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    //position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1002; /* Garante que o menu sempre fica acima */
     
 
     @media ${devices.tablet} {

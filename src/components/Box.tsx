@@ -4,6 +4,7 @@ export const BoxCenter = styled.div`
     width: 100%;
     padding: 25px;
     background: #1c4532;
+    margin-top: 70px;
 
 `;
 

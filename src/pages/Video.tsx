@@ -36,6 +36,8 @@ const Paragraph = styled.p`
 const ReactPlayerVideo = styled.div`
     border: 7px solid #ED8936;
     border-radius: 20px;
+    position: relative;
+    z-index: 1; /* Mantém o vídeo abaixo do menu */
 `;
 
 
